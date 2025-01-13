@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import urllib.parse
 import time
 
-API_KEY = 'your_api_key'
+API_KEY = 'YOUR_API_KEY'
 headers = {'Authorization': f'Bearer {API_KEY}'}
 url = 'https://api.yelp.com/v3/businesses/search'
 search_term = 'barber'

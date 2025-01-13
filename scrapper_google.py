@@ -11,7 +11,7 @@ RESULTS_CSV_FILE = "google_places_results"
 MAX_NUMBER_PAGES = 15
 
 # Replace with your Google Places API key
-API_KEY = 'your_api_key'
+API_KEY = 'YOUR_API_KEY'
 
 def get_places_data(query, location, radius, max_retries=3):
     print("Getting registers for ", query)
