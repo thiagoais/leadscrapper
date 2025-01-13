@@ -16,5 +16,10 @@ pip install -r requirements.txt
 The project requires API keys to function properly:
 
 1. Both (Google and Yelp) scrappers need a corresponding API key to work
+# Google
+- Register with google and get a free maps-api key (https://console.cloud.google.com/google/maps-apis/credentials)
+
+# Yelp
+- Create an account on developer Yelp and get a free api-key (https://www.yelp.com/developers)
 
 Replace `"YOUR_API_KEY"` with your actual API key before running.
